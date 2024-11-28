@@ -1,0 +1,507 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#parent{
+    height: 100%;
+    background-color:aquamarine ;
+    display: grid;
+    grid-template-rows: repeat(7,1fr);
+}
+#a{
+    height: 500px;
+    display: grid;
+    grid-template-rows: 20% 80%;
+    background:url(image.png);
+}
+
+#h{
+display: grid;
+grid-template-columns: 50% 50%;
+}
+
+#j{
+display: flex;
+font-size: 14px;
+padding-left: 150px;
+padding-top: 30px;
+color: white;
+}
+
+#k{
+    display: flex;
+    gap: 30px;
+    padding-left: 50px;
+    padding-top: 30px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+
+}
+
+#i{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+color: white;
+text-align: center;
+}
+
+#m{
+    height: 54px;
+    width: 760px;
+    background-color: white;
+    margin-left: 350px;
+    display: flex;
+    border-radius: 10px;
+}
+#n{
+    background-color:rgb(255, 255, 255);
+    height: 100%;
+    width: 30%;
+    display: flex;
+    border-radius: 10px;
+}
+#z{
+    height: 100%;
+    width: 370%;
+    background-color: white;
+
+}
+#l{
+    height: 60px;
+}
+
+#b{
+    height: 370px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+#c{
+    height: 500px;
+    background-color: white;
+    font-family:Arial, Helvetica, sans-serif ;
+    margin-left: 160px;
+}
+#be{
+    display: flex;
+}
+#bot{
+    color: rgb(231, 99, 99);
+    margin-left: 160px;
+    font-size: 18px;
+    margin-top: 4px;
+}
+#d{
+   height: 560px; 
+   background-color: white;
+}
+#e{
+    height: 550px;
+    display: grid;
+    grid-template-columns: 45% 55%;
+}
+#apple{
+    background-color:#FFFBF7;
+}
+#pears{
+    height: 270px;
+    width: 270px;
+    margin-left: 320px;
+    margin-top: 100px;
+}
+#mango{
+    background-color:#FFFBF7;
+}
+#boat{
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+#bike{
+    font-size: 20px;
+
+}
+#blast{
+    font-size: 20px;
+    margin-left: 70px;
+}
+#efg{
+    height: 50px;
+    width: 300px;
+    border-radius: 6px;
+    border-style: groove;
+    border-color: rgb(255, 252, 252);
+    padding-left: 10px;
+    font-size: 20px;
+}
+#hij{
+    height: 50px;
+    width: 180px;
+    border-radius: 6px;
+    border: none;
+    padding-left: 10px;
+    color: white;
+    background-color: rgb(214, 74, 74);
+}
+#fruit{
+ height: 43px;
+ width: 150px;
+}
+#kiwi{
+    height: 43px;
+    width: 150px;
+}
+#gone{
+color: grey;
+}
+#go{
+    font-size: 16px;
+}
+#f{
+    height: 700px;
+    background-color:white;
+}
+#g{
+    height: 600px;
+    background-color: rgb(201, 153, 153);
+    display: grid;
+    grid-template-rows: 15% 60% 25%;
+}
+#alpha{
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#free{
+    background-color: white;
+}
+#fire{
+    background-color: white;
+}
+#beta{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 23% 18% 18% 18% 23%;
+}
+#pubg{
+background-color: white;
+}
+#bgmi{
+    background-color: white;
+}
+#sub{
+    background-color: white;
+}
+#way{
+    background-color: white;
+}
+#surfer{
+    background-color: white;
+}
+#gamma{
+    background-color: white;
+}
+#q{
+    width: 140px;
+    height: 90%;
+}
+#r{
+width: 200px;
+height: 100px;
+}
+#meta{
+    height: 40px;
+    width: 150px;
+
+}
+#t{
+    font-size: 20px;
+    margin-left: 10px;
+}
+#place{
+    height: 100%;
+    width:400px;
+}
+#op{
+    height: 10%;
+    width: 10%;
+    margin-top: 10px;
+    font-size: 25px;
+    color: black;
+}
+#tab{
+    height: 250px;
+    width: 370px;
+    border-radius: 15px;
+    margin-left: 160px;
+    margin-top: 40px;
+}
+#image{
+    height: 170px;
+}
+#tik{
+    height: 250px;
+    width: 370px;
+    border-radius: 15px;
+    margin-left: 25px;
+    margin-top: 40px;
+    display: flex;
+}
+#tok{
+    height: 250px;
+    width: 370px;
+    border-radius: 15px;
+    margin-left: 25px;
+    margin-top: 40px;
+    display: flex;
+}
+#one{
+    height: 330px;
+    width: 280px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    margin-top: 25px;
+    
+}
+#tom{
+    height: 330px;
+    width: 280px;
+}
+#two{
+    height: 330px;
+    width: 280px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+#three{
+    height: 330px;
+    width: 280px;
+    background-color: aquamarine;
+    border-radius:10px ;
+    margin-top: 25px;
+}
+#four{
+    height: 330px;
+    width: 280px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+#main{
+    display: flex;
+    gap: 15px;
+}
+#disco{
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #363636;
+    margin-left: 160px;
+    margin-top: 70px;
+}
+#jerry{
+    display: flex;
+    gap: 30px;
+    margin-left: 124px;
+}
+#my{
+    height: 80px;
+    width: 363px;
+    display: grid;
+    grid-template-columns: 85% 15%;
+    border-radius: 10px;
+    border-style:groove;
+    border-color: rgba(255, 255, 255, 0.785);
+}
+#is{
+    height: 80px;
+    width: 363px; 
+    display: grid;
+    grid-template-columns: 85% 15%;
+    border-radius: 10px;
+    border-style:groove;
+    border-color: rgba(255, 255, 255, 0.785);
+}
+#name{
+    height: 80px;
+    width: 363px;
+    display: grid;
+    grid-template-columns: 85% 15%;
+    border-radius: 10px;
+    border-style:groove;
+    border-color: rgba(255, 255, 255, 0.785);
+}
+#patlu{
+    height: 80px;
+    width: 363px; 
+    display: grid;
+    grid-template-columns: 85% 15%;
+    border-radius: 10px;
+    border-style:groove;
+    border-color: rgba(255, 255, 255, 0.785);
+}
+#ghasita{
+    height: 80px;
+    width: 363px;
+    display: grid;
+    grid-template-columns: 85% 15%;
+    border-radius: 10px;
+    border-style:groove;
+    border-color: rgba(255, 255, 255, 0.785);
+
+}
+#dr{
+    height: 80px;
+    width: 363px; 
+    display: grid;
+    grid-template-columns: 85% 15%;
+    border-radius: 10px;
+    border-style:groove;
+    border-color: rgba(255, 255, 255, 0.785);
+}
+#motu{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    margin-left: 124px;
+}
+#math{
+    height: 80px;
+    width: 363px;
+    display: grid;
+    grid-template-columns: 85% 15%;
+    border-radius: 10px;
+    border-style:groove;
+    border-color: rgba(255, 255, 255, 0.785);
+}
+#science{
+    height: 80px;
+    width: 363px;
+    display: grid;
+    grid-template-columns: 85% 15%;
+    border-radius: 10px;
+    border-style:groove;
+    border-color: rgba(255, 255, 255, 0.785);
+}
+#english{
+    height: 80px;
+    width: 363px;
+    background-color:white; 
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    border-radius: 10px;
+    border-style:groove;
+    border-color: rgba(255, 255, 255, 0.785);
+}
+#party{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    margin-left: 124px;
+    
+}
+#ask{
+    margin: 40px;
+}
+#abc{
+    padding-top: 27px;
+    margin-left: 15px;
+    font-size: 18px;
+}
+#eng{
+    margin-left: 20px;
+    margin-top:10px ;
+}
+#abcd{
+    font-size: 18px;
+}
+.accordion{
+    width: 1100px;
+    margin-left: 160px;
+    margin-top: 50px;
+}
+.accordion-button{
+   font-size: 40px;
+   margin-bottom: 2px;
+   margin-top: 10px;
+}
+.accordion-button collapsed{
+    margin-top: 10px;
+    border-color: black;
+}
+#going{
+    margin-left: 160px;
+    margin-top: 80px;
+    font-size: 50px;
+}
+
+#grand{
+    margin-left: 160px;
+    height: 30px;
+    width: 140px;
+    font-size: 100px;
+    margin-top: 60px;
+}
+#pine{
+    margin-left: 160px;
+    margin-top: 50px;
+    gap: 30px;
+}
+#india{
+    height: 40px;
+    width: 130px;
+    margin-top: 1px;
+    margin-left: 280px;
+    font-size: 20px;
+}
+#now{
+    font-size: 20px;
+    margin-left: 30px;
+    height: 40px;
+    width: 130px;
+}
+#pubg{
+    margin-left: 160px;
+    margin-top: 60px;
+}
+#bgmi{
+    margin-left: 40px;
+    margin-top:60px ;
+}
+#sub{
+    margin-left: 40px;
+    margin-top: 60px;
+}
+#way{
+    margin-left: 40px;
+    margin-top: 60px;
+}
+#surfer{
+    margin-left:40px;
+    margin-top: 60px;
+}
+#google{
+    height: 45px;
+    width: 150px;
+    margin-top: 20px;
+}
+#chrome{
+    height: 45px;
+    width: 150px;
+    margin-top: 10px;
+}
+#face{
+    font-size: 24px;
+}
+#school{
+    margin-left: 160px;
+    font-size: 13px;
+}
